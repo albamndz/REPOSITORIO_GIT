@@ -9,25 +9,44 @@ body {
     padding-top: 50px; /* Espacio para el header */
 }
 
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #ddd;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #aaa;
-}
-
 h1 {
-    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.anuncio-destacado {
+h2 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.bloque {
+    margin: 20px 0;
+}
+
+.bloque h3 {
+    font-size: 18px;
     font-weight: bold;
-    margin-right: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.bloque div {
+    margin-bottom: 15px;
+}
+
+.bloque h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bloque p {
+    font-size: 14px;
+    margin: 5px 0;
 }
 
 main {
@@ -49,17 +68,9 @@ main {
     background-color: #f8f8f8;
 }
 
-h2 {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid black;
-    padding-bottom: 5px;
-}
-
-p {
-    font-size: 14px;
-    margin: 10px 0;
+.anuncio-destacado {
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 strong {
